@@ -1,0 +1,223 @@
+@font-face {
+    font-family: font;
+    src: url(Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: font-bold;
+    src: url(Montserrat-SemiBold.ttf);
+}
+
+* {
+    user-select: none;
+}
+
+body {
+    background-image: url("pryana.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.438);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: default;
+    z-index: 10;
+    user-select: none;
+}
+
+.logo-frame {
+    margin-left: 30px;
+    padding-bottom: 10px;
+    width: auto;
+    height: 70px;
+    display: flex;
+}
+
+header h1 {
+    font-family: font;
+    color: white;
+    margin-right: -26px;
+    margin-left: 30px;
+    /* text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.459); */
+}
+
+.header-home svg {
+    fill: rgb(255, 196, 0);
+    height: 35px;
+    filter: drop-shadow(0px 0px 3px rgba(255, 255, 0, 0.247));
+    transition: .5s;
+}
+
+.header-home {
+    margin-right: 50vw;
+    cursor: pointer;
+    color: white;
+    width: 95px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: font;
+    /* margin-left: 200px; */
+    font-size: 80%;
+    border-bottom: 4px solid rgba(255, 255, 255, 0);
+    transition: .12s;
+}
+
+.header-home:hover {
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+.main-info {
+    /* background-color: rgba(255, 251, 0, 0.075); */
+    width: 100vw;
+    height: 600px;
+    /* position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-top: 80px; */
+    color: white;
+    font-family: font-bold;
+    font-size: 30px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    cursor: default;
+    user-select: none;
+}
+
+.main-info li {
+    transition: .1s;
+    list-style-type: disc;
+}
+
+.main-info li:hover {
+    color: rgb(255, 196, 0);
+}
+
+.main-info a {
+    margin-top: 80px;
+    margin-left: 150px;
+    background-color: rgb(255, 196, 0);
+    height: 60px;
+    width: 150px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.137) inset;
+    flex-wrap: wrap;
+}
+
+.koguvcavis-varazdel {
+    /* padding: 38px 0;
+    margin-top: 70vh; */
+    width: 100vw;
+    /* position: absolute;
+    left: 0%; */
+    /* background: rgba(255, 255, 255, 0.075); */
+    color: #2f2f2f;
+    text-align: center;
+    color: rgb(255, 196, 0);
+    font-family: font-bold;
+}
+
+.sestim-donials {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.sectionesag {
+    width: 195px;
+    height: 3px;
+    background: #ffffff;
+    margin: 23px auto;
+}
+
+.sagestim-lonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.vemotau-vokusipol {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonial {
+    background: #1d1c1c;
+    border-radius: 30px;
+    padding: 28px;
+}
+
+.testimonial p {
+    color: rgb(255, 255, 255);
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.gecedanam {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.apogered-gselected {
+    color: #53b32b;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:960px) {
+    .vemotau-vokusipol {
+        flex: 100%;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .vemotau-vokusipol {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.lol {
+    position: absolute;
+    top: 80px;
+    left: 0%;
+    background: rgb(236, 255, 0);
+    background: linear-gradient(180deg, rgba(236, 255, 0, 0.075) 0%, rgba(255, 255, 255, 0.075) 100%);
+    width: 100vw;
+    height: 100em;
+}
+
+.line {
+    width: 100vw;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 70px;
+}
