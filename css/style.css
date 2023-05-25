@@ -120,9 +120,15 @@ header h1 {
     color: rgb(255, 196, 0);
 }
 
-.main-info a {
-    margin-top: 80px;
-    margin-left: 150px;
+.aaa {
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy a {
     background-color: rgb(255, 196, 0);
     height: 60px;
     width: 150px;
@@ -131,13 +137,13 @@ header h1 {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: white;
+    color: rgb(49, 49, 49);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.137) inset;
     flex-wrap: wrap;
     transition: .2s;
 }
 
-.main-info a:hover {
+.buy a:hover {
     background-color: rgb(233, 178, 0);
 }
 
@@ -250,7 +256,43 @@ header h1 {
     .aaa h1 {
         font-size: 50px;
     }
-    .aaa a {
-        margin-left: 120px;
+    .aaa {
+        max-width: 400px;
     }
+    .aaa li {
+        font-size: 25px;
+    }
+    .aaa ul {
+        margin: 0 0;
+        padding: 0 0;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .aaa h1 {
+        font-size: 40px;
+    }
+    .aaa {
+        max-width: 400px;
+    }
+    .aaa li {
+        font-size: 20px;
+    }
+    .aaa ul {
+        margin: 0 0;
+        padding: 0 0;
+    }
+}
+
+.aaa ul {
+    background-color: #ffffff27;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.terms {
+    font-size: 10px;
 }
